@@ -1,18 +1,27 @@
 # NgLibrarySeed
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
+- Description : A seed for an Angular library with a demo app
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12
+- Uses :
+    - ESLint
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Commands
+### Creation
+- ng new ng-library-seed --no-create-application
+- cd ng-library-seed
+- ng add @angular-eslint/schematics  
+- ng generate @angular-eslint/schematics:lib library --p=drt
+- ng generate application demo --p=drt --style=scss
+### Development
+- ng build library --watch
+    - The build artifacts will be stored in the `dist/` directory
+- ng build library --watch
+- ng serve demo 
+    - Navigate to `http://localhost:4200/`
 
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
