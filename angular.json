@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "projects/library",
       "sourceRoot": "projects/library/src",
-      "prefix": "drt",
+      "prefix": "ldrt",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
@@ -55,7 +55,7 @@
       },
       "root": "projects/demo",
       "sourceRoot": "projects/demo/src",
-      "prefix": "drt",
+      "prefix": "ldrt",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",

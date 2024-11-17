@@ -10,8 +10,8 @@
 - ng new ng-library-seed --no-create-application
 - cd ng-library-seed
 - ng add @angular-eslint/schematics  
-- ng generate @angular-eslint/schematics:lib library --p=drt
-- ng generate application demo --p=drt --style=scss
+- ng generate @angular-eslint/schematics:lib library --p=ldrt
+- ng generate application demo --p=ldrt --style=scss
 ### Development
 - ng build library --watch
     - The build artifacts will be stored in the `dist/` directory
