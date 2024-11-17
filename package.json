@@ -27,7 +27,8 @@
     "build library": "ng build library",
     "watch library": "ng build library --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint library": "ng lint library",
+    "lint demo": "ng lint demo"
   },
   "dependencies": {
     "@angular/animations": "^18.2.0",
