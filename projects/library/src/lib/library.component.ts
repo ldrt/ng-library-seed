@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'drt-library',
+  selector: 'ldrt-library',
   standalone: true,
   imports: [],
   templateUrl: './library.component.html',
