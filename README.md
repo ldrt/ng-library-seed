@@ -5,6 +5,8 @@
 - Uses :
   - ESLint
   - Prettier
+  - Commitlint
+  - Husky
 
 ## Commands
 
@@ -37,6 +39,14 @@
 - Create a settings.json file in .vscode and set rules
 - Cmd + Shift + P > Format > Format Document With > Configure Default Formatter > Prettier — Code formatter
 - Cmd + Shift + P > eslint > ESLint: Restart ESLint Server
+
+## Husky hook and commitlint
+
+- npm install --save-dev @commitlint/config-conventional @commitlint/cli
+- echo "module.exports = { extends: ['@commitlint/config-conventional'] };" > commitlint.config.js
+- npm install --save-dev husky
+- npx husky init
+- echo "npx --no -- commitlint --edit \$1" > .husky/commit-msg
 
 ## Code scaffolding
 
